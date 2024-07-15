@@ -1,0 +1,7 @@
+name = "test-worker"
+compatibility_date = "2024-06-03"
+
+main = "worker/main.js"
+
+[build]
+command = "npx rollup -c rollup.worker.config.js"
