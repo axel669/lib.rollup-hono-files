@@ -13,6 +13,9 @@
   "exports": {
     ".": "./lib/main.js"
   },
+  "files": [
+    "lib"
+  ],
   "devDependencies": {
     "@hono/node-server": "^1.12.0",
     "@rollup/plugin-node-resolve": "^15.2.3",
