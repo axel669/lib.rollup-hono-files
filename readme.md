@@ -1,7 +1,7 @@
 # Rollup Hono Files
 A small library for adding file-based routing into hono routes at bundle time
-using rollup. The goal was to birng file-based routing to places like Cloudflare
-workers and AWS Lambda with a simple, consistent interface.
+using rollup. The goal was to bring file-based routing to places like Cloudflare
+Workers and AWS Lambda with a simple, consistent interface.
 
 ## Installation
 Available in the standard package managers
