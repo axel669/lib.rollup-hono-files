@@ -3,7 +3,9 @@ export const $get = async (ctx, next) => {
     return await next()
 }
 
-export const $any = async (ctx, next) => {
-    console.log("ANY middleware")
-    return await next()
-}
+export const $any = [
+    async (ctx, next) => {
+        console.log("ANY middleware")
+        return await next()
+    }
+]

@@ -8,7 +8,9 @@ export default {
         format: "esm"
     },
     plugins: [
-        fileRoutes,
+        fileRoutes({
+            debug: true
+        }),
         resolve()
     ]
 }
