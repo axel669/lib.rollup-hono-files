@@ -1,0 +1,10 @@
+{
+    "name": "hono-file-routes-demo",
+    "main": "artifacts/worker.js",
+    "build": {
+        "command": "npx rollup -c"
+    },
+    "dev": {
+        "port": 45067
+    }
+}

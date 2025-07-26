@@ -1,8 +1,5 @@
-// import { Hono } from "hono"
 import { serve } from "@hono/node-server"
-import router from "./routes!routes"
-
-// console.log(router)
+import router from "file-routes@../routes"
 
 serve({
     fetch: router.fetch,

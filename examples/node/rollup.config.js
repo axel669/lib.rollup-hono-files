@@ -2,9 +2,9 @@ import fileRoutes from "@axel669/rollup-hono-files"
 import resolve from "@rollup/plugin-node-resolve"
 
 export default {
-    input: "worker.js",
+    input: "main.js",
     output: {
-        file: "worker/main.js",
+        file: "artifacts/server.js",
         format: "esm"
     },
     plugins: [

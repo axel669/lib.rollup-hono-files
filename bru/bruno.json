@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Hono File Router",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

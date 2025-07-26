@@ -1,11 +1,10 @@
 {
-  "name": "@axel669/rollup-hono-files",
-  "version": "0.1.2",
+  "name": "@axel669/hono-file-routes",
+  "version": "1.0.0",
   "description": "",
   "main": "./lib/main.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Axel",
