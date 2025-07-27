@@ -1,4 +1,4 @@
-import fileRoutes from "@axel669/rollup-hono-files"
+import fileRoutes from "@axel669/hono-file-routes"
 import resolve from "@rollup/plugin-node-resolve"
 
 export default {

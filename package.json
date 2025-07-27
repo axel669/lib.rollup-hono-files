@@ -26,5 +26,9 @@
   },
   "peerDependencies": {
     "hono": "^4.4.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axel669/lib.hono-file-routes"
   }
 }
